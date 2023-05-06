@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27aefaa90b792bf42b696767229161cf, type: 3}
+  m_Name: PistolSO
+  m_EditorClassIdentifier: 
+  weaponType: 0
+  pf_Bullet: {fileID: 0}
+  pf_HollowBullet: {fileID: 5175697075151044538, guid: c57aee1717df13b4faa006c0f3ce9691, type: 3}
+  pf_BulletHole: {fileID: 7494194400256799433, guid: eabe8d06563fd6845abd27782d93ea5b, type: 3}
+  maxAmmo: 1000

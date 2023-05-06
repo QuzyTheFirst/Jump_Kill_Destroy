@@ -1,0 +1,270 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7335493820389123411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7335493820389123413}
+  - component: {fileID: 7335493820389123412}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7335493820389123413
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7335493820389123411}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.1435386, y: 6.1414976, z: -8.250363}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7335493820389123412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7335493820389123411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d8633f71087c5f46bc5eb27bad20792, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Play
+    clip: {fileID: 8300000, guid: 2a048d93d1b832e4686c0323542c5f5c, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    randomPitch: 0
+    canPlayWhilePlaying: 0
+    source: {fileID: 0}
+  - name: Select
+    clip: {fileID: 8300000, guid: dcfec6f89b1c48147b2d9ee5ec6686c9, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    randomPitch: 0
+    canPlayWhilePlaying: 0
+    source: {fileID: 0}
+  - name: Swish
+    clip: {fileID: 8300000, guid: 644841941e33a7a4798d04365ef2ea9f, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    randomPitch: 0
+    canPlayWhilePlaying: 0
+    source: {fileID: 0}
+  - name: Exit
+    clip: {fileID: 8300000, guid: 5ae89811cadb1024285fa1cae6b0af65, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    randomPitch: 0
+    canPlayWhilePlaying: 0
+    source: {fileID: 0}
+  - name: Fall
+    clip: {fileID: 8300000, guid: 883d1128a16fb8643b8d377a830c93e8, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    randomPitch: 0
+    canPlayWhilePlaying: 1
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: f893f4a778ae7624990474679c5676c8, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    randomPitch: 0
+    canPlayWhilePlaying: 1
+    source: {fileID: 0}
+  - name: LegMove
+    clip: {fileID: 8300000, guid: e51ebcc9e35db1c4385f903bd533ab2b, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    randomPitch: 0
+    canPlayWhilePlaying: 1
+    source: {fileID: 0}
+  - name: LegPunch
+    clip: {fileID: 8300000, guid: bef10eb23b7576a46a5de205a7a70bdf, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    randomPitch: 0
+    canPlayWhilePlaying: 1
+    source: {fileID: 0}
+  - name: Shot
+    clip: {fileID: 8300000, guid: c3e527ee0be32704fa27efbc34522bb7, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    randomPitch: 0
+    canPlayWhilePlaying: 1
+    source: {fileID: 0}
+  - name: Slide
+    clip: {fileID: 8300000, guid: 31cabddcc5923da4ab92d671fda5a44b, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 1
+    randomPitch: 0
+    canPlayWhilePlaying: 0
+    source: {fileID: 0}
+  - name: Death
+    clip: {fileID: 8300000, guid: 63dd7062cbb64904b98044eaabad7aa9, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    randomPitch: 0
+    canPlayWhilePlaying: 1
+    source: {fileID: 0}
+  - name: Hit
+    clip: {fileID: 8300000, guid: 0a06b147cab7f9743976665b303eebe8, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    randomPitch: 0
+    canPlayWhilePlaying: 1
+    source: {fileID: 0}
+  - name: Shot
+    clip: {fileID: 8300000, guid: bafb0551d172e3648a175763f613c522, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    randomPitch: 0
+    canPlayWhilePlaying: 1
+    source: {fileID: 0}
+  - name: ComputerStartUp
+    clip: {fileID: 8300000, guid: 61657aa7c7b630d45a860c59be56a0c3, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    randomPitch: 0
+    canPlayWhilePlaying: 0
+    source: {fileID: 0}
+  - name: ComputerWorking
+    clip: {fileID: 8300000, guid: 133fc9f144ae80043983ef74c4e18638, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 1
+    randomPitch: 0
+    canPlayWhilePlaying: 0
+    source: {fileID: 0}
+  - name: ComputerShutDown
+    clip: {fileID: 8300000, guid: bcfea46d11d5eb9419dd16fa3ae7eabd, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    randomPitch: 0
+    canPlayWhilePlaying: 0
+    source: {fileID: 0}
+  - name: LightWindBlow
+    clip: {fileID: 8300000, guid: e8c60cfeb17e16c4191f7a891487eea2, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 1
+    randomPitch: 0
+    canPlayWhilePlaying: 0
+    source: {fileID: 0}
+  - name: StrongWindBlow
+    clip: {fileID: 8300000, guid: e9288105fe357404da4db2a5c2c73326, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 1
+    randomPitch: 0
+    canPlayWhilePlaying: 0
+    source: {fileID: 0}
+  - name: Repellant
+    clip: {fileID: 8300000, guid: 0c1cf276e8c36a84e95c0e8ce3875f9c, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    randomPitch: 0
+    canPlayWhilePlaying: 1
+    source: {fileID: 0}
+  - name: Jumppad
+    clip: {fileID: 8300000, guid: 74f1781389fd8974cbc93d679490fe9e, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    randomPitch: 0
+    canPlayWhilePlaying: 1
+    source: {fileID: 0}
+  - name: PlayerDamage
+    clip: {fileID: 8300000, guid: 263f3786a2a0d91408606e2bd6cefc4e, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    randomPitch: 0
+    canPlayWhilePlaying: 1
+    source: {fileID: 0}
+  - name: ButtonUse
+    clip: {fileID: 8300000, guid: bf79bdabd42059d4b8046f725c4cf7bf, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    randomPitch: 0
+    canPlayWhilePlaying: 1
+    source: {fileID: 0}
+  - name: StepOnGround
+    clip: {fileID: 8300000, guid: 4895908cfa546a542b3657115bfb4064, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    randomPitch: 1
+    canPlayWhilePlaying: 1
+    source: {fileID: 0}
+  - name: StepOnWall
+    clip: {fileID: 8300000, guid: eee171751a0fa8849bb0a09762224230, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    randomPitch: 1
+    canPlayWhilePlaying: 1
+    source: {fileID: 0}
+  - name: Cough1
+    clip: {fileID: 8300000, guid: d0dca383b90826c4ea697dec4e474311, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    randomPitch: 0
+    canPlayWhilePlaying: 1
+    source: {fileID: 0}
+  - name: Cough2
+    clip: {fileID: 8300000, guid: ff4fd05b9d5b1a64fb8bd7542e865299, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    randomPitch: 0
+    canPlayWhilePlaying: 1
+    source: {fileID: 0}
+  - name: Cough3
+    clip: {fileID: 8300000, guid: 9e2c77b2ae4dce442b3c38276f492a41, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    randomPitch: 0
+    canPlayWhilePlaying: 1
+    source: {fileID: 0}
+  - name: Music
+    clip: {fileID: 8300000, guid: 0e2155d81187ec94fb2f72081de7d9f2, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 1
+    randomPitch: 0
+    canPlayWhilePlaying: 0
+    source: {fileID: 0}
